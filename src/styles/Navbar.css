@@ -1,0 +1,27 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:20px;
+    padding: 10px 20px;
+    margin:0;
+    box-shadow: inset;
+    color:white;
+    background-color: rgb(234, 209, 177);
+
+}
+.navbar-left{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    color:black;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    font-size: 1.2rem;
+    font-weight:bold
+
+}
