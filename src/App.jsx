@@ -11,11 +11,14 @@ import AddMovie from "./Pages/AddMovie";
 import EditMovie from "./Pages/EditMovie";
 import MovieScroller from "./Pages/MovieScroller";
 
+
 const App = () => {
 	return (
 		<div>
 			{/* Navbar */}
+   
 			<Navbar />
+      {/* <Home/> */}
 			{/* <h1>React Movie Explorer</h1> */}
 			<Routes>
 				<Route path="/" element={<Home />} />
@@ -61,9 +64,7 @@ const App = () => {
 				/>
 				<Route path="/login" element={<Login />} />
 			</Routes>
-			{/* all routes go inside */}
-			{/* Footer */}
-			{/* <Footer/> */}
+			
 		</div>
 	);
 };

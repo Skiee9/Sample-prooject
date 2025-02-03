@@ -15,7 +15,7 @@ const EditMovie = () => {
 	const [err, setError] = useState(null);
 	const { id } = useParams();
 	const navigate = useNavigate();
-	// pre fill the edit input fileds
+	
 	useEffect(() => {
 		console.log(id);
 		const fetchMovie = async () => {
@@ -41,7 +41,7 @@ const EditMovie = () => {
 	};
 	const handleEditMovie = async (e) => {
 		e.preventDefault();
-		// put request
+	
 		try {
 			await axios.put(
 				`https://achieved-colossal-skink.glitch.me/movies/${id}`,

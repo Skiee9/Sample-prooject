@@ -6,8 +6,8 @@
     padding: 10px 20px;
     margin:0;
     box-shadow: inset;
-    color:white;
-    background-color: rgb(234, 209, 177);
+   
+    background-color: rgb(10, 50, 76);
 
 }
 .navbar-left{
@@ -20,8 +20,20 @@
 .nav-link{
     text-decoration: none;
     list-style: none;
-    color:black;
+    color:rgb(252, 251, 251);
     font-size: 1.2rem;
     font-weight:bold
 
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+    background-color: rgb(178, 222, 224);
 }
